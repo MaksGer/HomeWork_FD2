@@ -9,7 +9,6 @@ let cssColors = {
 
 function transformObject(obj) {
     let objectTransformed = {};
-
     for (key in obj) {
         objectTransformed[obj[key]] = key;
     }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>JavaScript Calculator</h1>
+    <div class="container">
+    <div class="calc-parent">
+        <div class="row">
+            <div class="column display" id="calc-display-val">0</div>
+        </div>
+        <div class="row">
+            <div class="calc-btn column button" id="calc-clear">AC</div>
+            <div class="calc-btn column button" id="calc-memory">M</div>
+            <div class="calc-btn column button" id="calc-backspace">&#8676;</div>
+            <div class="calc-btn calc-btn-operator column button" id="calc-divide">&#247;</div>
+        </div>
+        <div class="row">
+            <div class="calc-btn calc-btn-num column button">7</div>
+            <div class="calc-btn calc-btn-num column button">8</div>
+            <div class="calc-btn calc-btn-num column button">9</div>
+            <div class="calc-btn calc-btn-operator column button" id="calc-multiply">x</div>
+        </div>
+        <div class="row">
+            <div class="calc-btn calc-btn-num column button">4</div>
+            <div class="calc-btn calc-btn-num column button">5</div>
+            <div class="calc-btn calc-btn-num column button">6</div>
+            <div class="calc-btn calc-btn-operator column button" id="calc-minus">-</div>
+        </div>
+        <div class="row">
+            <div class="calc-btn calc-btn-num column button">1</div>
+            <div class="calc-btn calc-btn-num column button">2</div>
+            <div class="calc-btn calc-btn-num column button">3</div>
+            <div class="calc-btn calc-btn-operator column button" id="calc-plus">+</div>
+        </div>
+        <div class="row">
+            <div class="calc-btn calc-btn-num column double-btn zero button" id="calc-zero">0</div>
+            <div class="calc-btn column button" id="calc-decimal">.</div>
+            <div class="calc-btn calc-btn-operator column calc-equals" id="calc-equals">=</div>
+        </div>
+        <div class="row calc-btn set-memory hide" id="set-memory">Записать в localStorage</div>
+    </div>
+    <div class="reset">
+        <button id="clear">Очистить localStorage</button>
+    </div>
+    <div class="rules">
+        <ul>
+            <li>Все кнопки работают</li>
+            <li>Возможность записать результат в localStorage появится после нажатия на  равно "="</li>
+            <li>Кнопка "M" выводит результ из localStorage на дисплей калькулятора</li>
+        </ul>
+    </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>

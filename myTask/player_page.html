@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="player_style.css">
+    <script src="https://music.yandex.ru/api/audio/dist/index.min.js" type="javascript">
+    </script>
+</head>
+<body>
+<div class="player">
+    <!-- Кнопка «воспроизведение/пауза». -->
+    <div class="controls">
+        <button class="controls_play">Play</button>
+    </div>
+    <!-- Прогресс-бар. -->
+    <div class="progress">
+        <!-- Шкала загрузки. -->
+        <div class="progress_loaded"></div>
+        <!-- Шкала текущей позиции воспроизведения. -->
+        <div class="progress_current"></div>
+    </div>
+    <!-- Шкала громкости. -->
+    <div class="volume">
+        <div class="volume_bar"></div>
+    </div>
+    <!--  HTML-элемент, в котором будет размещен Flash-апплет.
+          Если браузер заблокирует Flash-содержимое, в апплете будет
+          отображено уведомление о блокировке.
+          Для разблокировки достаточно произвести клик по апплету. -->
+    <div class="overlay"></div>
+    <script src="player_script.js"></script>
+</div>
+</body>
+</html>

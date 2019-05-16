@@ -1,0 +1,25 @@
+
+.description {
+    display: inline-block;
+    margin: 15px 10px;
+    width: 70px;
+}
+
+.gallery img{
+    width: 400px;
+}
+
+.err{
+    outline: 1px solid red;
+}
+
+.valid{
+    outline: 1px solid green;
+}
+
+.focus{
+    box-shadow: 0 0 5px #ff0;
+}
+.check {
+    margin-right: 50%;
+}
